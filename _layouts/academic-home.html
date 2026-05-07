@@ -1,0 +1,387 @@
+---
+layout: default
+---
+
+<style>
+  body {
+    margin: 0;
+    background: #fff;
+    color: #4b4f56;
+    font-family: "Trebuchet MS", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body *,
+  button,
+  input,
+  textarea,
+  select {
+    font-family: inherit !important;
+  }
+
+  .masthead {
+    position: static;
+    border-bottom: 1px solid #e8e8e8;
+    background: #fff;
+  }
+
+  .masthead__inner-wrap {
+    max-width: none;
+    margin: 0 auto;
+    padding: 0 28px;
+  }
+
+  .greedy-nav {
+    display: block;
+    min-width: 0;
+    height: 72px;
+    background: transparent;
+  }
+
+  .greedy-nav button,
+  .greedy-nav .hidden-links,
+  #theme-toggle,
+  .masthead__menu-item--lg {
+    display: none !important;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: center;
+    gap: 54px;
+    height: 72px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .masthead__menu-item {
+    display: block;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .masthead__menu-item a {
+    color: #6b7178;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 72px;
+    text-decoration: none;
+  }
+
+  .masthead__menu-item.selected a,
+  .masthead__menu-item a:hover {
+    color: #4b4f56;
+    font-weight: 700;
+  }
+
+  #main.academic-home {
+    display: grid;
+    grid-template-columns: 380px minmax(0, 1fr);
+    gap: 36px;
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 44px 28px 84px;
+    box-sizing: border-box;
+    animation: none;
+  }
+
+  .academic-home a {
+    color: #174a93;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  .award-highlight {
+    color: #174a93;
+    font-weight: 700;
+  }
+
+  .academic-home__profile {
+    padding-top: 4px;
+  }
+
+  .academic-home__avatar {
+    display: block;
+    width: 248px;
+    height: 248px;
+    margin: 0 0 24px;
+    border: 1px solid #eeeeee;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .academic-home__profile h1 {
+    margin: 0 0 16px;
+    color: #45484d;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  .academic-home__affiliation,
+  .academic-home__bio {
+    max-width: 320px;
+    margin: 0 0 30px;
+    color: #4f5359;
+    font-size: 23px;
+    line-height: 1.5;
+  }
+
+  .academic-home__links {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .academic-home__links li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0 0 18px;
+    color: #4f5359;
+    font-size: 22px;
+    line-height: 1.25;
+  }
+
+  .academic-home__links .link-icon {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    flex: 0 0 22px;
+  }
+
+  .academic-home__links .link-icon--black {
+    filter: brightness(0) saturate(100%);
+  }
+
+  .academic-home__links a {
+    color: #4f5359;
+    text-decoration: none;
+  }
+
+  .academic-home__content {
+    min-width: 0;
+    max-width: none;
+    color: #4b4f56;
+    font-family: "Trebuchet MS", Helvetica, Arial, "Microsoft YaHei", sans-serif !important;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.55;
+  }
+
+  .academic-home__content p {
+    margin: 0 0 16px;
+    font-family: inherit !important;
+    font-weight: 500;
+  }
+
+  .home-section {
+    margin: 0 0 34px;
+    padding: 0 0 28px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .home-intro {
+    padding-bottom: 0;
+    margin-bottom: 28px;
+    border-bottom: 0;
+  }
+
+  .home-section h2 {
+    margin: 0 0 18px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e8e8e8;
+    color: #45484d;
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 700;
+  }
+
+  .home-section ul {
+    margin: 0;
+    padding-left: 40px;
+  }
+
+  .home-section li {
+    margin-bottom: 10px;
+    font-family: inherit !important;
+    font-weight: 500;
+  }
+
+  .publication-note {
+    margin-bottom: 16px;
+  }
+
+  .publication-item {
+    display: grid;
+    grid-template-columns: minmax(360px, 48%) minmax(0, 1fr);
+    gap: 42px;
+    align-items: start;
+    padding: 38px 0 42px;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .publication-item:last-child {
+    border-bottom: 0;
+    padding-bottom: 8px;
+  }
+
+  .publication-thumb {
+    position: relative;
+  }
+
+  .publication-thumb img {
+    display: block;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .publication-thumb span {
+    position: absolute;
+    top: 8px;
+    left: -10px;
+    min-width: 86px;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    background: #0646a5;
+    color: #fff;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-align: center;
+  }
+
+  .publication-body h3 {
+    margin: 12px 0 12px;
+    color: #45484d;
+    font-size: 22px;
+    line-height: 1.35;
+    font-weight: 700;
+  }
+
+  .publication-body p {
+    margin-bottom: 12px;
+    font-family: inherit !important;
+    font-weight: 500;
+  }
+
+  .publication-venue {
+    color: #174a93;
+    font-style: italic;
+  }
+
+  .publication-links a {
+    margin-right: 8px;
+    font-weight: 500;
+  }
+
+  .page__footer {
+    display: none;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .masthead__inner-wrap {
+      padding: 0 24px;
+    }
+
+    .greedy-nav .visible-links {
+      gap: 24px;
+      overflow-x: auto;
+    }
+
+    .academic-home {
+      grid-template-columns: 1fr;
+      gap: 28px;
+      padding: 32px 24px 64px;
+    }
+
+    .academic-home__profile {
+      display: grid;
+      grid-template-columns: 132px minmax(0, 1fr);
+      column-gap: 24px;
+      align-items: center;
+    }
+
+    .academic-home__avatar {
+      grid-row: span 3;
+      width: 132px;
+      height: 132px;
+      margin: 0;
+    }
+
+    .academic-home__profile h1 {
+      font-size: 27px;
+    }
+
+    .academic-home__affiliation,
+    .academic-home__bio {
+      max-width: none;
+      margin-bottom: 8px;
+      font-size: 19px;
+    }
+
+    .academic-home__links {
+      grid-column: 1 / -1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 20px;
+      margin-top: 20px;
+    }
+
+    .academic-home__links li {
+      margin: 0;
+      font-size: 17px;
+    }
+
+    .academic-home__content {
+      font-size: 18px;
+    }
+
+    .home-section h2 {
+      font-size: 26px;
+    }
+
+    .publication-item {
+      grid-template-columns: 1fr;
+      gap: 18px;
+    }
+  }
+</style>
+
+<main class="academic-home" id="main" role="main">
+  <aside class="academic-home__profile" aria-label="Profile">
+    <img class="academic-home__avatar" src="{{ '/images/' | append: site.author.avatar | relative_url }}?v=20260506-profile" alt="{{ site.author.name }}">
+
+    <h1>{{ site.author.name }}</h1>
+    <p class="academic-home__affiliation">{{ site.author.employer }}</p>
+    <p class="academic-home__bio">{{ site.author.bio }}</p>
+
+    <ul class="academic-home__links">
+      {% if site.author.location %}
+        <li><img class="link-icon" src="{{ '/images/local.png' | relative_url }}" alt="" aria-hidden="true">{{ site.author.location }}</li>
+      {% endif %}
+      {% if site.author.email %}
+        <li><img class="link-icon" src="{{ '/images/mail.png' | relative_url }}" alt="" aria-hidden="true"><a href="mailto:{{ site.author.email }}">Email</a></li>
+      {% endif %}
+      {% if site.author.googlescholar %}
+        <li><img class="link-icon link-icon--black" src="{{ '/images/favicon.svg' | relative_url }}" alt="" aria-hidden="true"><a href="{{ site.author.googlescholar }}">Google Scholar</a></li>
+      {% endif %}
+      {% if site.author.github %}
+        <li><img class="link-icon" src="{{ '/images/github.png' | relative_url }}" alt="" aria-hidden="true"><a href="https://github.com/{{ site.author.github }}/">GitHub</a></li>
+      {% endif %}
+    </ul>
+  </aside>
+
+  <article class="academic-home__content">
+    {{ content }}
+  </article>
+</main>
