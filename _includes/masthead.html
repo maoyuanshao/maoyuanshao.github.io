@@ -14,7 +14,7 @@
             {% else %}
               {% assign nav_url = link.url | relative_url %}
             {% endif %}
-            <li class="masthead__menu-item {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
+            <li class="masthead__menu-item {% if page.url == '/' or page.url == '/index.html' %}persist{% endif %} {% if page.url contains link.url and link.url != '/' %}selected{% endif %}">
               <a href="{{ nav_url }}">{{ link.title }}</a>
             </li>
           {% endfor %}
