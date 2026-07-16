@@ -102,7 +102,7 @@ redirect_from:
 <section id="internships" class="home-section">
   <h2>Internships</h2>
   <ul>
-    <li><strong>2026:</strong> <a href="https://www.nlpr.ia.ac.cn/cn/index.html">National Laboratory of Pattern Recognition, Institute of Automation, Chinese Academy of Sciences</a>.</li>
+
     <li><strong>2025:</strong> <a href="https://cmpdc.iphy.ac.cn/">Science Data Center for Condensed Matter Physics, Institute of Physics, Chinese Academy of Sciences</a>.</li>
     <li><strong>2024:</strong> <a href="https://ai.bupt.edu.cn/">School of Artificial Intelligence, Beijing University of Posts and Telecommunications</a>.</li>
   </ul>
