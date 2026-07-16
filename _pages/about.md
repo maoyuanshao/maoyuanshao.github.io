@@ -111,6 +111,7 @@ redirect_from:
 <section id="competitions" class="home-section">
   <h2>Competitions</h2>
   <ul>
+    <li>2025‑2026 University Student Innovation Training Program, <span class="award-highlight">National Level</span> Completion.</li>
     <li>The 27th China Robotics and Artificial Intelligence Competition, <span class="award-highlight">National First Prize</span>.</li>
     <li>The 8th China University Intelligent Robot Creative Competition, <span class="award-highlight">National Second Prize</span>.</li>
     <li>"Youth Innovation Beijing" 2025 "Challenge Cup" Capital College Students' Extracurricular Academic Science and Technology Works Competition, <span class="award-highlight">Beijing First Prize</span>.</li>
