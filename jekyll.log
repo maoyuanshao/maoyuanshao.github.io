@@ -1,0 +1,337 @@
+C:/msys64/mingw64/lib/ruby/3.4.0/win32/registry.rb:2: warning: fiddle/import is found in fiddle, which will no longer be part of the default gems starting from Ruby 3.5.0.
+You can add fiddle to your Gemfile or gemspec to silence this warning.
+To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
+Configuration file: C:/Users/10859/Desktop/academicpages.github.io-master/_config.yml
+            Source: C:/Users/10859/Desktop/academicpages.github.io-master
+       Destination: C:/Users/10859/Desktop/academicpages.github.io-master/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating... 
+       Jekyll Feed: Generating feed for posts
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+9 │     "vendor/breakpoint/breakpoint",
+  │     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 9:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+11 │     "themes",
+   │     ^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 11:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+12 │     "theme/default_light",
+   │     ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 12:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+13 │     "theme/default_dark",
+   │     ^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 13:5  root stylesheet
+DEPRECATION WARNING [import]: Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+15 │     "include/mixins",
+   │     ^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 15:5  root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass(list-separator($query) == "comma"): true; else: false)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+44 │     $or-list: if(list-separator($query) == 'comma', true, false);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_parsers.scss 44:15  @import
+    vendor\breakpoint\_breakpoint.scss 29:9                                                            @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 9:5                     root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($i == 1): ""; else: ", ")
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+72 │           $query-string: $query-string + if($i == 1, '', ', ') + breakpoint-parse(nth($query, $i));
+   │                                          ^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_parsers.scss 72:42  @import
+    vendor\breakpoint\_breakpoint.scss 29:9                                                            @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 9:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use meta.function-exists instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+10 │ $Memo-Exists: function-exists(memo-get) and function-exists(memo-set);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_parsers.scss 10:15  @import
+    vendor\breakpoint\_breakpoint.scss 29:9                                                            @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 9:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.index instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+29 │   @if (str-index($setting, '-') or str-index($setting, '_')) and str-index($setting, ' ') == null {
+   │        ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 29:8   breakpoint-set()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 37:23  breakpoint-change()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 41:3   breakpoint-set()
+    _themes.scss 50:1                                                                                   @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 11:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use string.index instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+29 │   @if (str-index($setting, '-') or str-index($setting, '_')) and str-index($setting, ' ') == null {
+   │                                    ^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 29:36  breakpoint-set()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 37:23  breakpoint-change()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 41:3   breakpoint-set()
+    _themes.scss 50:1                                                                                   @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 11:5                     root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use map.merge instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+   ╷
+32 │   $breakpoint: map-merge($breakpoint, ($setting: $value)) !global;
+   │                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 32:16  breakpoint-set()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 37:23  breakpoint-change()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_settings.scss 41:3   breakpoint-set()
+    _themes.scss 50:1                                                                                   @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 11:5                     root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(1, 4) or calc(1 / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+69 │     gutters: 1/4,
+   │              ^^^
+   ╵
+    _themes.scss 69:14                                                               @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 11:5  root stylesheet
+DEPRECATION WARNING [global-builtin]: Global built-in functions are deprecated and will be removed in Dart Sass 3.0.0.
+Use color.mix instead.
+
+More info and automated migrator: https://sass-lang.com/d/import
+
+  ╷
+7 │ $dark-gray                  : mix(#000, $gray, 40%);
+  │                               ^^^^^^^^^^^^^^^^^^^^^
+  ╵
+    theme\_default_light.scss 7:31                                                   @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 12:5  root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($i <= $length): append($_return, nth($list, $i)); else: $_return)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+15 │     $_return: if($i <= $length, append($_return, nth($list, $i)), $_return);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\su\_utilities.scss 15:15  @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\_su.scss 4:9              @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\_susy.scss 6:9   @import
+    vendor\susy\_susy.scss 4:9                                                                             @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 16:5                        root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(sass($_level): map-merge($_level, $_merge); else: $_merge)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+59 │     $_return: if($_level, map-merge($_level, $_merge), $_merge);
+   │               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\su\_utilities.scss 59:15  @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\_su.scss 4:9              @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\_susy.scss 6:9   @import
+    vendor\susy\_susy.scss 4:9                                                                             @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 16:5                        root stylesheet
+DEPRECATION WARNING [if-function]: The Sass if() syntax is deprecated in favor of the modern CSS syntax.
+
+Suggestion: if(not sass(unitless($col)): true)
+
+More info: https://sass-lang.com/d/if-function
+
+   ╷
+21 │         $fail: $fail or if(unitless($col), null, true);
+   │                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\su\_validation.scss 21:25  @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\_su.scss 6:9               @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\_susy.scss 6:9    @import
+    vendor\susy\_susy.scss 4:9                                                                              @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 16:5                         root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($value, 16px) or calc($value / 16px)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+28 │     @return $value / 16px * 1em;
+   │             ^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_helpers.scss 28:13                base-conversion()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_helpers.scss 20:13                breakpoint-to-base-em()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\parsers\single\_default.scss 8:29  breakpoint-parse-default()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\parsers\_single.scss 22:14         breakpoint-parse-single()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_parsers.scss 153:18               breakpoint-parse()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\breakpoint\_parsers.scss 48:22                breakpoint()
+    vendor\breakpoint\_breakpoint.scss 46:16                                                                         breakpoint()
+    layout\_reset.scss 13:3                                                                                          @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 18:5                                  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($span-sum, $context) or calc($span-sum / $context)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+    ╷
+156 │       $width: percentage($span-sum / $context);
+    │                          ^^^^^^^^^^^^^^^^^^^^
+    ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_span.scss 156:26  get-span-width()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_span.scss 45:11   span()
+    include\_utilities.scss 171:24                                                                                @content
+    vendor\breakpoint\_breakpoint.scss 66:7                                                                       breakpoint()
+    include\_utilities.scss 170:3                                                                                 @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 21:5                               root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($_gutters, susy-sum($_columns, $_gutters, $_spread)) or calc($_gutters / susy-sum($_columns, $_gutters, $_spread))
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+80 │       $_gutter  : percentage($_gutters / susy-sum($_columns, $_gutters, $_spread));
+   │                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_gutters.scss 80:30   get-gutter-width()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_gutters.scss 100:25  get-gutters()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_span.scss 70:13      span-math()
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_span.scss 13:12      span()
+    layout\_navigation.scss 37:7                                                                                     @content
+    vendor\breakpoint\_breakpoint.scss 66:7                                                                          breakpoint()
+    layout\_navigation.scss 36:5                                                                                     @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 26:5                                  root stylesheet
+DEPRECATION WARNING [color-functions]: lighten() is deprecated. Suggestions:
+
+color.scale($color, $lightness: 50%)
+color.adjust($color, $lightness: 50%)
+
+More info: https://sass-lang.com/d/color-functions
+
+    ╷
+385 │   border-color: lighten(#000,50);
+    │                 ^^^^^^^^^^^^^^^^
+    ╵
+    layout\_forms.scss 385:17                                                        @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 30:5  root stylesheet
+DEPRECATION WARNING [slash-div]: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($context, $n) or calc($context / $n)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+24 │   $line         : floor($context / $n);
+   │                         ^^^^^^^^^^^^^
+   ╵
+    C:\Users\10859\Desktop\academicpages.github.io-master\_sass\vendor\susy\susy\language\susy\_gallery.scss 24:25  gallery()
+    layout\_archive.scss 132:5                                                                                      @content
+    vendor\breakpoint\_breakpoint.scss 66:7                                                                         breakpoint()
+    layout\_archive.scss 131:3                                                                                      @import
+    C:\Users\10859\Desktop\academicpages.github.io-master\assets\css\main.scss 33:5                                 root stylesheet
+WARNING: 348 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+[33m          Conflict: The following destination is shared by multiple files.[0m
+[33m                    The written file may end up with unexpected contents.[0m
+[33m                    [36mC:/Users/10859/Desktop/academicpages.github.io-master/_site/posts/2012/08/blog-post-4/index.html[0m[0m
+[33m                     - C:/Users/10859/Desktop/academicpages.github.io-master/_posts/2015-08-14-blog-post-4.md[0m
+[33m                     - C:/Users/10859/Desktop/academicpages.github.io-master/_posts/2199-01-01-future-post.md[0m
+[33m                    [0m
+                    done in 1.589 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.
+[31m                    ------------------------------------------------[0m
+[31m      Jekyll 4.4.1   Please append `--trace` to the `serve` command [0m
+[31m                     for any additional information or backtrace. [0m
+[31m                    ------------------------------------------------[0m
+C:/msys64/mingw64/lib/ruby/3.4.0/socket.rb:205:in 'Socket#bind': Permission denied - bind(2) for 127.0.0.1:4000 (Errno::EACCES)
+	from C:/msys64/mingw64/lib/ruby/3.4.0/socket.rb:205:in 'Addrinfo#listen'
+	from C:/msys64/mingw64/lib/ruby/3.4.0/socket.rb:1181:in 'block in Socket.tcp_server_sockets'
+	from C:/msys64/mingw64/lib/ruby/3.4.0/socket.rb:231:in 'Array#each'
+	from C:/msys64/mingw64/lib/ruby/3.4.0/socket.rb:231:in 'Addrinfo.foreach'
+	from C:/msys64/mingw64/lib/ruby/3.4.0/socket.rb:1179:in 'Socket.tcp_server_sockets'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.2/lib/webrick/utils.rb:60:in 'WEBrick::Utils.create_listeners'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.2/lib/webrick/server.rb:130:in 'WEBrick::GenericServer#listen'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.2/lib/webrick/server.rb:111:in 'WEBrick::GenericServer#initialize'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/webrick-1.9.2/lib/webrick/httpserver.rb:47:in 'WEBrick::HTTPServer#initialize'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:216:in 'Class#new'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:216:in 'Jekyll::Commands::Serve.start_up_webrick'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:102:in 'Jekyll::Commands::Serve.process'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in 'block in Jekyll::Command.process_with_graceful_fail'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in 'Array#each'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/command.rb:91:in 'Jekyll::Command.process_with_graceful_fail'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/lib/jekyll/commands/serve.rb:85:in 'block (2 levels) in Jekyll::Commands::Serve.init_with_program'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in 'block in Mercenary::Command#execute'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in 'Array#each'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/mercenary-0.4.0/lib/mercenary/command.rb:221:in 'Mercenary::Command#execute'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/mercenary-0.4.0/lib/mercenary/program.rb:44:in 'Mercenary::Program#go'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/mercenary-0.4.0/lib/mercenary.rb:21:in 'Mercenary.program'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/gems/jekyll-4.4.1/exe/jekyll:15:in '<top (required)>'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/bin/jekyll:25:in 'Kernel#load'
+	from C:/Users/10859/Desktop/academicpages.github.io-master/vendor/bundle/ruby/3.4.0/bin/jekyll:25:in '<top (required)>'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/cli/exec.rb:61:in 'Kernel.load'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/cli/exec.rb:61:in 'Bundler::CLI::Exec#kernel_load'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/cli/exec.rb:24:in 'Bundler::CLI::Exec#run'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/cli.rb:504:in 'Bundler::CLI#exec'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/vendor/thor/lib/thor/command.rb:28:in 'Bundler::Thor::Command#run'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/vendor/thor/lib/thor/invocation.rb:127:in 'Bundler::Thor::Invocation#invoke_command'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/vendor/thor/lib/thor.rb:538:in 'Bundler::Thor.dispatch'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/cli.rb:35:in 'Bundler::CLI.dispatch'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/vendor/thor/lib/thor/base.rb:584:in 'Bundler::Thor::Base::ClassMethods#start'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/cli.rb:29:in 'Bundler::CLI.start'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/exe/bundle:28:in 'block in <top (required)>'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/lib/bundler/friendly_errors.rb:118:in 'Bundler.with_friendly_errors'
+	from C:/msys64/mingw64/lib/ruby/gems/3.4.0/gems/bundler-4.0.11/exe/bundle:20:in '<top (required)>'
+	from C:/msys64/mingw64/bin/bundle:36:in 'Kernel#load'
+	from C:/msys64/mingw64/bin/bundle:36:in '<main>'

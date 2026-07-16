@@ -1,0 +1,15 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/rubygems/'
+
+group :jekyll_plugins do
+  gem 'jekyll'
+  gem 'jekyll-feed'
+  gem 'jekyll-gist'
+  gem 'jekyll-paginate'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-redirect-from'
+  gem 'webrick', '~> 1.8'
+end
+
+gem 'connection_pool', '2.5.0'
+gem 'tzinfo'
+gem 'tzinfo-data'

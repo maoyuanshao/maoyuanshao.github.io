@@ -1,0 +1,21 @@
+main:
+  - title: "Homepage"
+    url: /
+
+  - title: "About Me"
+    url: /#about-me
+
+  - title: "Publications"
+    url: /#publications
+
+  - title: "Educations"
+    url: /#education
+
+  - title: "Internships"
+    url: /#internships
+
+  - title: "Competitions"
+    url: /#competitions
+
+  - title: "Service"
+    url: /#service
